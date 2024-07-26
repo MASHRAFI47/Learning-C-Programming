@@ -7,7 +7,8 @@ int main () {
     char c = 'a';
     
     printf("This is int %d\n", x);
-    printf("This is float %f\n", y);
+    //print 2 digits after float;
+    printf("This is float %.2f\n", y);
     printf("This is double int %lf\n", z);
     printf("This is a char %c", c);
     return 0;
