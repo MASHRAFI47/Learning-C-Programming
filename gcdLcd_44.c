@@ -21,5 +21,4 @@ int main()
 
     printf("GCD is: %d\n", gcd);
     printf("LCM is: %d\n", lcm);
-
 }
