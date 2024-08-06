@@ -30,7 +30,7 @@ int main()
     }
 
     // FOR B
-    for (row = 0; row < ALengthOfArr; row++)
+    for (row = 0; row < BLengthOfArr; row++)
     {
         for (col = 0; col < 2; col++)
         {
@@ -40,7 +40,7 @@ int main()
         printf("\n");
     }
 
-    for (row = 0; row < ALengthOfArr; row++)
+    for (row = 0; row < 3; row++)
     {
         for (col = 0; col < 2; col++)
         {
