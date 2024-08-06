@@ -12,6 +12,7 @@ int main()
     {
         for (col = 0; col < 2; col++)
         {
+            printf("matrix[%d][%d]", row, col);
             scanf("%d", &matrix[row][col]);
         }
         printf("\n");
