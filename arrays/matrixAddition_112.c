@@ -10,6 +10,7 @@ int main()
     int row, col;
 
     // FOR A
+
     for (row = 0; row < ALengthOfArr; row++)
     {
         for (col = 0; col < 2; col++)
@@ -20,6 +21,7 @@ int main()
         printf("\n");
     }
 
+    printf("A = ");
     for (row = 0; row < ALengthOfArr; row++)
     {
         for (col = 0; col < 2; col++)
@@ -30,6 +32,7 @@ int main()
     }
 
     // FOR B
+
     for (row = 0; row < BLengthOfArr; row++)
     {
         for (col = 0; col < 2; col++)
@@ -40,6 +43,7 @@ int main()
         printf("\n");
     }
 
+    printf("B = ");
     for (row = 0; row < 3; row++)
     {
         for (col = 0; col < 2; col++)
@@ -49,8 +53,7 @@ int main()
         printf("\n");
     }
 
-
-    //FOR C
+    // FOR C
     printf("C = ");
     for (row = 0; row < ALengthOfArr; row++)
     {
