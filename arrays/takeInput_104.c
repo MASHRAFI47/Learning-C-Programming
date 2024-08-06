@@ -9,6 +9,7 @@ int main()
         printf("Enter number: ");
         scanf("%d", &numbers[i]);
     }
+    
     printf("\n");
 
     for (int i = 0; i < 5; i++)
